@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tarea_1\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarea_1\Divisa.cs" />
     <Compile Include="Tarea_1\Grados.cs" />
@@ -55,9 +55,20 @@
     <Compile Include="Tarea_1\PromedioEdad.cs" />
     <Compile Include="Tarea_1\Semana.cs" />
     <Compile Include="Tarea_1\TablaMultiplicacion.cs" />
+    <Compile Include="Tarea_2\AgendaTelefonica.cs" />
+    <Compile Include="Tarea_2\AgregarPromedioMaxMin.cs" />
+    <Compile Include="Tarea_2\CadenasOrdenadas.cs" />
+    <Compile Include="Tarea_2\DatosSalon.cs" />
+    <Compile Include="Tarea_2\Diccionario.cs" />
+    <Compile Include="Tarea_2\Factorial.cs" />
+    <Compile Include="Tarea_2\FormatoHora.cs" />
+    <Compile Include="Tarea_2\JaggedParametro.cs" />
+    <Compile Include="Tarea_2\NumeroACadenas.cs" />
+    <Compile Include="Tarea_2\ProgramaEscuela.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
