@@ -32,9 +32,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -65,10 +70,84 @@
     <Compile Include="Tarea_2\JaggedParametro.cs" />
     <Compile Include="Tarea_2\NumeroACadenas.cs" />
     <Compile Include="Tarea_2\ProgramaEscuela.cs" />
+    <Compile Include="Tarea_3\EnumNeumaticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\EnumNeumaticos.Designer.cs">
+      <DependentUpon>EnumNeumaticos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\Estudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\Estudiantes.Designer.cs">
+      <DependentUpon>Estudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\Factorial2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\Factorial2.Designer.cs">
+      <DependentUpon>Factorial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\InventarioTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\InventarioTienda.Designer.cs">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\MascotaYDueno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\MascotaYDueno.Designer.cs">
+      <DependentUpon>MascotaYDueno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\MenuTarea3form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\MenuTarea3form.Designer.cs">
+      <DependentUpon>MenuTarea3form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\ProductosTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\ProductosTienda.Designer.cs">
+      <DependentUpon>ProductosTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea_3\SobreCargaPoligono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea_3\SobreCargaPoligono.Designer.cs">
+      <DependentUpon>SobreCargaPoligono.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Tarea_3\EnumNeumaticos.resx">
+      <DependentUpon>EnumNeumaticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\Estudiantes.resx">
+      <DependentUpon>Estudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\Factorial2.resx">
+      <DependentUpon>Factorial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\InventarioTienda.resx">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\MascotaYDueno.resx">
+      <DependentUpon>MascotaYDueno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\MenuTarea3form.resx">
+      <DependentUpon>MenuTarea3form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\ProductosTienda.resx">
+      <DependentUpon>ProductosTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea_3\SobreCargaPoligono.resx">
+      <DependentUpon>SobreCargaPoligono.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
